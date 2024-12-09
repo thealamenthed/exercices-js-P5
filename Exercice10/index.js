@@ -1,3 +1,12 @@
-//votre code ici
+const printNumbers = (n) => {
+  let total = "";
+  let i = 0;
 
-export default printNumbers
+  for (i = 1; i <= n; i++) {
+    total += i;
+    if (i < n) total += " ";
+  }
+  return total;
+};
+
+export default printNumbers;

@@ -45,9 +45,36 @@ nav a {
 /* Styles du main */
 main {
     padding: 20px;
+    height: 35rem;
 }
 
 section {
     margin-bottom: 20px;
 }
 
+footer {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin-right: 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    main {
+        height: 30rem;
+    }
+
+
+
+}
